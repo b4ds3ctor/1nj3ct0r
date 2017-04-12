@@ -1,16 +1,3 @@
-/*
-* DOZ - Creative 404 Pages
-* Build Date: August 2015
-* Author: Madeon08
-* Copyright (C) 2015 Madeon08
-* This is a premium product available exclusively here : http://themeforest.net/user/Madeon08/portfolio
-*/
-
-/* ------------------------------------- */
-/* LOVE Text Effect .................... */
-/* ------------------------------------- */
-
-/* Codepen Link : http://codepen.io/wagerfield/pen/wftcE */
 
 $(window).load(function() {
 
@@ -19,15 +6,15 @@ $(window).load(function() {
     MESSAGES = [];
     MESSAGES.push({
         delay: 0,
-        text: '> Oops, ERROR 404 NOT FOUND...'
+        text: '> Oops, Your Website Is Vuln'
     });
     MESSAGES.push({
         delay: 1200,
-        text: 'You may have mis-typed the URL.'
+        text: 'Repair Now Or Your Website alwasy be Done Forever'
     });
     MESSAGES.push({
         delay: 2200,
-        text: 'Or the page has been removed.'
+        text: 'Contact Your Security Team To Solved this Problem'
     });
     MESSAGES.push({
         delay: 3600,
@@ -35,7 +22,7 @@ $(window).load(function() {
     });
     MESSAGES.push({
         delay: 5200,
-        text: 'Click on the links below to do something, Thanks!'
+        text: '--Deface by B4D S3CT0R--'
     });
     $container = $('#container');
     $message = $('#message');
