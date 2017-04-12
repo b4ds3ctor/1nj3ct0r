@@ -1,32 +1,10 @@
 
-/*
-* DOZ - Creative 404 Pages
-* Build Date: August 2015
-* Author: Madeon08
-* Copyright (C) 2015 Madeon08
-* This is a premium product available exclusively here : http://themeforest.net/user/Madeon08/portfolio
-*/
-/*  TABLE OF CONTENTS
-    ---------------------------
-    *. @Import & Reset
-    1. Generic styles
-    2. Media Queries
-*/
-/* ------------------------------------- */
-/* *. @Import & Reset .................. */
-/* ------------------------------------- */
-/* http://bourbon.io/ Sass Mixin Library */
-/* custom CSS files */
 @import url(font-awesome.min.css);
 @import url(ionicons.min.css);
 @import url(bootstrap.min.css);
 @import url(animate.css);
 @import url(vegas.css);
-/*
-* http://meyerweb.com/eric/tools/css/reset/ 
-* v2.0 | 20110126
-* License: none (public domain)
-*/
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -47,7 +25,6 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline; }
 
-/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, main {
   display: block; }
@@ -70,9 +47,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* ------------------------------------- */
-/* 1. Generic styles ................... */
-/* ------------------------------------- */
 body {
   font-family: "Courier", "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -190,14 +164,7 @@ a {
   35%,
     100% {
     background-position: 0 100vh; } }
-/* ------------------------------------- */
-/* 7. Media Queries .................... */
-/* ------------------------------------- */
-/* Large Devices, Wide Screens */
-/* Notebook devices */
-/* Medium Devices, Desktops */
-/* Small Devices, Tablets */
-/* Extra Small Devices, Phones */
+
 @media only screen and (max-width: 480px) {
   #container {
     min-height: 100%;
@@ -215,6 +182,4 @@ a {
       -o-transform: translateY(0);
       transform: translateY(0); }
       #container .item-title #message {
-        min-height: 240px; } }
-/* Only for tablet in landscape mode */
-/* Only for phone in landscape mode */
+
